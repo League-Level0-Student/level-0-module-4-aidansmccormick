@@ -7,7 +7,7 @@ public class StringMethods1 {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to whatever you want
-
+String eat = fart
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		

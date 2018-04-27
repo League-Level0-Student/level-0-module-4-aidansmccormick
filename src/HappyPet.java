@@ -6,7 +6,7 @@ public class HappyPet {
 	// 0;
 	// this will be used to store the happiness of your pet
 	static int happy = 0;
-
+	static int strength = 0;
 	public static void main(String[] args) {
 		// 1. Ask the user what kind of pet they want to buy, and store their answer in
 		// a variable
@@ -65,13 +65,15 @@ public class HappyPet {
 								new String[] { "Jump Rope", "Bench Press", "exit" }, null);
 					}
 					if (P1 == 2) {
+						
 						JOptionPane.showMessageDialog(null, "your " + pet + "has gained 1 strength");
+						strength = strength + 1;
 					}
 				}
 
 				// 6. If you determine the happiness level is large enough, tell the
 				// user that he loves his pet and use break; to exit for loop.
-
+				
 			}
 
 			// 4. Create methods to handle each of your user selections.
